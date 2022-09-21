@@ -100,7 +100,7 @@ public class CourseServiceImpl implements CourseService {
 		CourseDetails courseDetails = courseDao.getCourseById(id);
 
 		if (courseDetails == null) {
-			throw new CourseNotFoundException("Course id not found -" + id);
+			throw new CourseNotFoundException("Course id not found hhh-" + id);
 		} else {
 			courseDao.deleteById(courseDetails);
 			System.out.println("Deleted course id - " + id);
