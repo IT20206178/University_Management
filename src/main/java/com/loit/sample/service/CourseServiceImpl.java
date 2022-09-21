@@ -131,7 +131,7 @@ public class CourseServiceImpl implements CourseService {
 			return courseDao.updateCourse(courseDetails);
 
 		} else {
-			throw new CourseNotFoundException("No Course Found to Update to id : " +id);
+			throw new CourseNotFoundException("No Course Found to Update to id: " +id);
 		}
 
 	}
