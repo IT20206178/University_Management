@@ -89,7 +89,7 @@ public class CourseServiceImpl implements CourseService {
 
 			return courseResponse;
 		} else {
-			throw new CourseNotFoundException("Course Not Fund to id : "+id);
+			throw new CourseNotFoundException("Course is not fund to id: "+id);
 		}
 	}
 
